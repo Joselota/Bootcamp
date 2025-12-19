@@ -1,20 +1,12 @@
 # Calculadora exprés: rutina inteligente con variables
-
-print("=== Calculadora exprés (rendimiento académico) ===")
+print("=== Calculadora express (rendimiento académico) ===")
 
 # 1) Pedir datos (input SIEMPRE devuelve texto / str)
 nombre = input("Nombre: ")
-
-edad_str = input("Edad (en años): ")
-edad = int(edad_str)  # Conversión 1: str -> int
-
-nota1_str = input("Nota 1 (0 a 10): ")
-nota2_str = input("Nota 2 (0 a 10): ")
-nota3_str = input("Nota 3 (0 a 10): ")
-
-nota1 = float(nota1_str)  # Conversión 2: str -> float
-nota2 = float(nota2_str)
-nota3 = float(nota3_str)
+edad = int(input("Edad (en años): "))
+nota1 = float(input("Nota 1 (0 a 10): "))
+nota2 = float(input("Nota 2 (0 a 10): "))
+nota3 = float(input("Nota 3 (0 a 10): "))
 
 # 2) Calcular
 promedio = (nota1 + nota2 + nota3) / 3
