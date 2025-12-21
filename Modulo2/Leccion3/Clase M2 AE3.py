@@ -82,7 +82,10 @@ if (salario > 2500 and es_tiempo_completo) or antiguedad >= 5:
 else:
     print("No eres elegible para el bono anual.")
 
-###### Pate 2 ######
+##########################################################################
+############################## Parte 2 ###################################
+##########################################################################
+
 #Ejemplo básico de if
 temperatura = 30
 if temperatura > 25:
@@ -170,6 +173,16 @@ else:
 edad = 20
 mensaje = "Mayor de edad" if edad >= 18 else "Menor de edad"
 print(mensaje)
+
+# Forma tradicional
+if edad >= 18:
+    mensaje = "Acceso permitido"
+else:
+    mensaje = "Acceso denegado"
+
+# Forma ternaria
+mensaje = "Acceso permitido" if edad >= 18 else "Acceso denegado"
+
 
 # Ejemplo de Condición de Aprobación con Ternaria
 nota = 70 
